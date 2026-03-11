@@ -45,7 +45,7 @@ def degrade_image(image_path, mode='gaussian', **kwargs):
 
 # ===== 示例使用 =====
 if __name__ == "__main__":
-    input_path = "/apdcephfs_fsgm/share_304156246/xmudongwang/codebase/zq/YOLOv8-Crack-Detection/test_datasets/clean/valid/images/00792_jpg.rf.4006a8b7ae7585ab0522270c8a285e24.jpg"  # 输入图片路径
+    input_path = "./zq/YOLOv8-Crack-Detection/test_datasets/clean/valid/images/00792_jpg.rf.4006a8b7ae7585ab0522270c8a285e24.jpg"  # 输入图片路径
     output_path = "00792_jpg.rf.4006a8b7ae7585ab0522270c8a285e24_motion.jpg"
 
     # 选择退化类型
